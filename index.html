@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movie</title>
+
+        <!-- styles -->
+         <link rel="stylesheet" href="styles.css" /> 
+    </head>
+    <body>
+        <div class="pw-container">
+            <h4 class="pw-title">Password Generator</h4>
+            <div class="pw-output">
+                <p class="password">ds4s45$%sdsdsdsdsdsds^&7dsdsdsdsdsdsdsdsd*</p>
+                <span class="copy">Copy</span>
+            </div>
+            <div class="pw-control">
+                <ul class="pw-lists">
+                    <li class="pw-list">
+                        <label for="range">Password linght</label>
+                        <input type="number" id="range" min="7" max="40" value="8" />
+                    </li>
+                    <li class="pw-list">
+                        <label for="upper">Include uppercase letters</label>
+                        <input type="checkbox" id="upper" />
+                    </li>
+                    <li class="pw-list">
+                        <label for="lower">Include lowercase letters</label>
+                        <input type="checkbox" id="lower" />
+                    </li>
+                    <li class="pw-list">
+                        <label for="numbers">Include numbers</label>
+                        <input type="checkbox" id="numbers" />
+                    </li>
+                    <li class="pw-list">
+                        <label for="symbols">Include symbols</label>
+                        <input type="checkbox" id="symbols" />
+                    </li>
+                </ul>
+                <button type="button" class="btn">Generate password</button>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
